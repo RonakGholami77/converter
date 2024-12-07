@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(238, 238, 158);
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+input {
+  width: 200px;
+  height: 20px;
+  padding: 3px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin: 20px;
+}
